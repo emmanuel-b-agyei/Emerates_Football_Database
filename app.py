@@ -1,14 +1,3 @@
-import streamlit as st
-#import mysql.connector
-
-# Database connection (Connect to MySQL )
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="GH57.,fa",
-    database="AFA_Database"
-)
-cursor = conn.cursor()
 
 # Query 1: Display players and their respective teams
 def display_players_teams():
